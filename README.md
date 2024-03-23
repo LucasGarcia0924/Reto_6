@@ -118,3 +118,21 @@ if __name__ == "__main__":
     Deuda = prestamo(C,i,n)
     print("La deuda a pagar escala hasta:",str(Deuda),"pesos")
 ```
+
+## Punto 6
+```
+def contagiados (D: int, C: int) -> int:
+    enfermos_finales = C * 2**D
+    return enfermos_finales
+
+if __name__ == "__main__":
+
+
+    print("En NuncaLandia hay una nueva enfermedad")
+    C = int(input("¿Cuántos contagiados crees que hay hoy?"))
+    D = int(input("¿En cuántos días quieres ver qué tantos contagiados hay?"))
+
+    Contagiados_prime = contagiados(D,C)
+
+    print("Para",str(D),"días después de hoy, habrán", str(Contagiados_prime),"contagiados")
+```
