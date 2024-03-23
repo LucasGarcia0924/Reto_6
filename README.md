@@ -101,5 +101,20 @@ if __name__ == "__main__":
 
 ## Punto 5
 ```
+def prestamo (C: float, i: float, n: int) -> float:
+    i = i/100
+    capital_final = C * (1+i)**n
+    return capital_final
 
+if __name__ == "__main__":
+
+    Deuda: float
+
+    print("Ingresa los sgtes valores:")
+    C = float(input("Capital inicial: "))
+    i = float(input("Tasa de interes (sin porcentaje):"))
+    n = int(input("Meses del prestamo"))
+
+    Deuda = prestamo(C,i,n)
+    print("La deuda a pagar escala hasta:",str(Deuda),"pesos")
 ```
