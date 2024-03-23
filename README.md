@@ -136,3 +136,41 @@ if __name__ == "__main__":
 
     print("Para",str(D),"días después de hoy, habrán", str(Contagiados_prime),"contagiados")
 ```
+
+## Punto 7
+```
+from Funciones_reto6 import *
+
+if __name__ == "__main__":
+
+    promedio5: float
+    mediana5: float
+    prome_multi: float
+    orden_ascendente: float
+    orden_descendente: float
+    potencia_del_mayor: float
+    raíz_del_menor: float
+
+    print("Digita 5 números")
+    a = float(input("El primero:"))
+    b = float(input("El segundo:"))
+    c = float(input("El tercero:"))
+    d = float(input("El cuarto:"))
+    e = float(input("El quinto:"))
+
+    promedio5 = promedio(a,b,c,d,e)
+    mediana5 = mediana(a,b,c,d,e)
+    prome_multi = prom_multi(a,b,c,d,e)
+    orden_ascendente = ascender(a,b,c,d,e)
+    orden_descendente = descender(a,b,c,d,e)
+    potencia_del_mayor = potencia(a,b,c,d,e)
+    raíz_del_menor = root(a,b,c,d,e)
+
+    print("De estos números se tiene que:")
+    print(str(promedio5),"es su promedio")
+    print(str(mediana5),"es su mediana")
+    print(str(orden_ascendente),"así se encuentran en orden ascendente")
+    print(str(orden_descendente),"así se encuentran en orden descendente")
+    print(str(potencia_del_mayor),"es la potencia del número mayor elevado al menor")
+    print(str(raíz_del_menor),"es la raíz cúbica del número menor")
+```
