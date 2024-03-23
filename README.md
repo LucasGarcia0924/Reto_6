@@ -1,7 +1,9 @@
 # Reto_6
 ***
-Hecho por Lucas García
-## Punto 1
+Desarrollo de los problemas dispuestos dentro del reto ya mencionado.
+
+## Códigos
+### Punto 1
 ```
 import math
 
@@ -31,7 +33,7 @@ if __name__ == "__main__":
     print("De la figura mostrada el área superficial es:", str(area_superficial),"cm^2")
 ```
 
-## Punto 2
+### Punto 2
 ```
 import math
 
@@ -60,7 +62,7 @@ if __name__ == "__main__":
     print("De la figura mostrada el área es:", str(area_figura),"cm^2")
 ```
 
-## Punto 3
+### Punto 3
 ```
 def masa (N: int, M: int, K: int) -> int:
     cantidad_kilos = (N*6) + (M*7) + K
@@ -77,7 +79,7 @@ if __name__ == "__main__":
     print("La cantidad de carne es de:", kilos,"kg")
 ```
 
-## Punto 4
+### Punto 4
 ```
 def cambio (P: int, M: int, H: int, B: int) -> float:
     residuo = B - (P*300 + M*3300 + H*350)
@@ -99,7 +101,7 @@ if __name__ == "__main__":
         print("Recibiste de vuelto:", str(restante), "pesos")
 ```
 
-## Punto 5
+### Punto 5
 ```
 def prestamo (C: float, i: float, n: int) -> float:
     i = i/100
@@ -119,7 +121,7 @@ if __name__ == "__main__":
     print("La deuda a pagar escala hasta:",str(Deuda),"pesos")
 ```
 
-## Punto 6
+### Punto 6
 ```
 def contagiados (D: int, C: int) -> int:
     enfermos_finales = C * 2**D
@@ -137,7 +139,7 @@ if __name__ == "__main__":
     print("Para",str(D),"días después de hoy, habrán", str(Contagiados_prime),"contagiados")
 ```
 
-## Punto 7
+### Punto 7
 ```
 from Funciones_reto6 import *
 
@@ -174,3 +176,33 @@ if __name__ == "__main__":
     print(str(potencia_del_mayor),"es la potencia del número mayor elevado al menor")
     print(str(raíz_del_menor),"es la raíz cúbica del número menor")
 ```
+## Punto 9
+***
+"pip" o Instalador de Paquetes de Python, como lo dice su nombre cumple la función de instalar, aunque a su vez administrar, los paquetes de software o el código ya programado por otros que deseemos anexar a nuestro propio código.
+
+Para usarlo se debe instalar desde la pagina oficial donde se descargará el archivo "get-pip.py", el cual habremos de ejecutar.
+
+Y luego, es tan sencillo como escribir "pip install/uninstall (el nombre del paquete)", y con esto podremos instalar o desinstalar cualquier paquete.
+- Si deseas puedes anexar la version de python que estes usando luego de "pip", para asi descargar el paquete concreto de dicha version.
+      - Ejemplo:
+      ```
+      pip3 install compositor
+      ```
+## Punto 10
+***
+Lista de módulos populares que pueden ser instalados con el pip:
+    - math
+    - zipimport
+    - random
+    - logging
+    - getpass
+    - functools
+    - codecs
+Y se instalan con la misma estructura:
+
+- Ejemplo:   
+```
+    pip install python-math
+```
+    
+Solo debe agregarse "python-" antes del nombre del módulo
