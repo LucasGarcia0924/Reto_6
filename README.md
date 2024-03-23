@@ -128,7 +128,7 @@ def contagiados (D: int, C: int) -> int:
 if __name__ == "__main__":
 
 
-    print("En NuncaLandia hay una nueva enfermedad")
+    print("En NuncaLandia hay un nuevo brote de COVID-19")
     C = int(input("¿Cuántos contagiados crees que hay hoy?"))
     D = int(input("¿En cuántos días quieres ver qué tantos contagiados hay?"))
 
